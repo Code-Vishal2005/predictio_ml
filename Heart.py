@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load model
-with open("E:/Machine Learning Projects/heart_disease_model.pkl", "rb") as file:
+with open("heart_disease_model.pkl", "rb") as file:
     model = joblib.load(file)
 
 # Page config
