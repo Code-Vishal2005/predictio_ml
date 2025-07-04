@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the model
-loaded = joblib.load("E:\\Machine Learning Projects\\churn_model.pkl")
+loaded = joblib.load("churn_model.pkl")
 model = loaded['model'] if isinstance(loaded, dict) and 'model' in loaded else loaded
 
 # Page configuration
