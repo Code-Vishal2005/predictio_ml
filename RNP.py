@@ -9,7 +9,7 @@ st.set_page_config(page_title="🌧️ Rainfall Predictor", layout="wide")
 
 # Load trained model
 try:
-    with open("E:\\Machine Learning Projects\\rainfall_prediction_model.pkl", "rb") as file:
+    with open("rainfall_prediction_model.pkl", "rb") as file:
         model = joblib.load(file)
     st.success("✅ Model loaded successfully!")
 except Exception as e:
